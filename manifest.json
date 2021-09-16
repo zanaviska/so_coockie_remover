@@ -1,0 +1,12 @@
+{
+    "name": "Stackoverflow coockie remover",
+    "description": "remove coockie from SO",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+          "matches": ["https://stackoverflow.com/questions/28046084/chrome-app-extension-to-remove-a-page-element"],
+          "js": ["/content_script.js"]
+      }
+    ]
+}
