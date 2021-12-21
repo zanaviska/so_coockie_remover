@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "content_scripts": [
       {
-          "matches": ["https://stackoverflow.com/questions/28046084/chrome-app-extension-to-remove-a-page-element"],
+          "matches": ["http://*/*", "https://*/*"],
           "js": ["/content_script.js"]
       }
     ]
